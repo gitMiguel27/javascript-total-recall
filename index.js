@@ -63,3 +63,17 @@ PART A: Q + A
     // note: the answer is a simple arithmetic equation, not something "weird" 
     
     console.log(48 == '48');
+
+// PART D: THE FARM
+
+// 1. Declare a variable animal. Set it to be either "cow" or something else
+    let animal = "dog";
+// 2. Write code that will print out "mooooo" if the it is equal to cow
+    if (animal === "cow") {
+        console.log("moooo");
+    };
+
+// 3. Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+    if (animal !== "cow") {
+        console.log("Look at all those chickens!");
+    };
