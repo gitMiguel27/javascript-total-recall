@@ -46,23 +46,23 @@ PART A: Q + A
 // Using the provided variable definitions, replace the blanks so that all log statements print true in the console. Answers should be all be valid JS syntax and not weird things that don't make sense but happen to print true to the console
     const a = 4; const b = 53; const c = 57; const d = 16; const e = 'Kevin';
 
-    console.log(a < b); 
-    console.log(c > d); 
-    console.log('Name' == 'Name'); 
+    // console.log(a < b); 
+    // console.log(c > d); 
+    // console.log('Name' == 'Name'); 
     
     // FOR THE NEXT TWO, USE ONLY && OR || 
-    console.log(true || false);
-    console.log(false && false && false && false && false || true);
+    // console.log(true || false);
+    // console.log(false && false && false && false && false || true);
 
-    console.log(false === false);
-    console.log(e == 'Kevin'); 
-    console.log(a + b >= c); 
+    // console.log(false === false);
+    // console.log(e == 'Kevin'); 
+    // console.log(a + b >= c); 
     // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
 
-    console.log(a * a <= d); 
+    // console.log(a * a <= d); 
     // note: the answer is a simple arithmetic equation, not something "weird" 
     
-    console.log(48 == '48');
+    // console.log(48 == '48');
 
 // PART D: THE FARM
 
@@ -83,29 +83,29 @@ PART A: Q + A
 // Make a variable that holds a person's age; be semantic
     let myAge = 25;
 // Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
-    if (myAge >= 16) {
-        console.log("Here are the keys!");
-    }
-    else if (myAge < 16) {
-        console.log("Sorry, you're too young.");
-    };
+    // if (myAge >= 16) {
+    //     console.log("Here are the keys!");
+    // }
+    // else if (myAge < 16) {
+    //     console.log("Sorry, you're too young.");
+    // };
 
 // PART 2: LOOPS
 
 // PART A: THE BASICS
 
 // Write a loop that will print out all the numbers from 0 to 10, inclusive
-    for (let i = 0; i <= 10; i++) {
-        console.log(i);
-    };
+    // for (let i = 0; i <= 10; i++) {
+    //     console.log(i);
+    // };
 // Write a loop that will print out all the numbers from 10 up to and including 400
-    for (let i = 10; i <= 400; i++) {
-        console.log(i);
-    };
+    // for (let i = 10; i <= 400; i++) {
+    //     console.log(i);
+    // };
 // Write a loop that will print out every third number starting with 12 and going no higher than 4000
-    for (let i = 12; i < 4000; i += 3) {
-        console.log(i);
-    };
+    // for (let i = 12; i < 4000; i += 3) {
+    //     console.log(i);
+    // };
 
 // PART B: GET EVEN
 
@@ -114,10 +114,19 @@ PART A: Q + A
     //     console.log(i);
     // };
 // Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
+    // for (let i = 1; i <= 100; i++) {
+    //     if (i % 2 === 0) {
+    //         console.log(i + " <-- is an even number");
+    //     } else {
+    //         console.log(i);
+    //     };
+    // };
+
+// PART C: GIVE ME FIVE
+
+// For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five
     for (let i = 1; i <= 100; i++) {
-        if (i % 2 === 0) {
-            console.log(i + " <-- is an even number");
-        } else {
-            console.log(i);
+        if (i % 5 === 0) {
+            console.log(i + " <-- I found a number. High five!");
         };
     };
