@@ -110,5 +110,14 @@ PART A: Q + A
 // PART B: GET EVEN
 
 // Print out the numbers that are within the range of 1 - 100
-    
+    // for (let i = 1; i <= 100; i++) {
+    //     console.log(i);
+    // };
 // Adjust your code to add a message next to even numbers only that says: "<-- is an even number"
+    for (let i = 1; i <= 100; i++) {
+        if (i % 2 === 0) {
+            console.log(i + " <-- is an even number");
+        } else {
+            console.log(i);
+        };
+    };
