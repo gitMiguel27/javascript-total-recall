@@ -66,14 +66,27 @@ PART A: Q + A
 
 // PART D: THE FARM
 
-// 1. Declare a variable animal. Set it to be either "cow" or something else
+// Declare a variable animal. Set it to be either "cow" or something else
     let animal = "dog";
-// 2. Write code that will print out "mooooo" if the it is equal to cow
+// Write code that will print out "mooooo" if the it is equal to cow
     if (animal === "cow") {
         console.log("moooo");
     };
 
-// 3. Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
+// Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
     if (animal !== "cow") {
         console.log("Look at all those chickens!");
     };
+
+// PART E: DRIVER'S ED
+
+// Make a variable that holds a person's age; be semantic
+    let myAge = 25;
+// Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
+    if (myAge >= 16) {
+        console.log("Here are the keys!");
+    }
+    else if (myAge < 16) {
+        console.log("Sorry, you're too young.");
+    };
+
